@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+  <meta charset="UTF-8">
+  <title>ROBO SCHOOL</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Jost:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
+</head>
+<body>
+	<div class="site">
+		<div class="main">
+			<div class="nav">
+				<div class="logo">
+					ROBO SCHOOL
+				</div>
+				<div class="item2">
+					<span class="item">О школе</span>
+					<span class="item">Тренеры</span>
+					<span class="item">Стоимость</span>
+				</div>
+				<div class="item3">
+					+7 800 000 11 22 
+				</div>
+			</div>
+			<div class="page1">
+				<div class="column1">
+					<h2 class="text_c1">ROBO SCHOOL</h2>
+					<p class="text2_c1">Курсы повышения квалификации по робототехнике для педагогов начальной школы</p>
+				</div>
+				<div class="column2">
+					<div class="circle">
+					<img class="img_1" src="img1/dev.png" height=917 width=515>
+					</div>
+				</div>
+			</div>
+		</div>
+
+	</div>
+  
+</body>
+</html>
+<style>
+.page1{
+display:flex;
+justify-content:center;
+width
+}
+.img_1{
+position:absolute;
+width: 515.52px;
+height: 917.48px;
+top: 162.52px;
+left: 200.99px;
+gap: 0px;
+opacity: 0px;
+
+}
+.column2{
+position:relative;
+}
+.circle{
+height:783px;
+width:783px;
+border-radius:100%;
+border:80px solid white;
+}
+body{
+font-family:Jost;
+margin:0px;
+padding:0px;
+}
+.logo, .item3{
+font-size:30px;
+}
+.main{
+background-color:#141024;
+height:100vh;
+color:white;
+}
+.nav{
+display:flex;
+justify-content:space-between;
+aling-items:center;
+padding-top:30px;
+}
+.item2{
+justify-content:space-between;
+display:flex;
+width:324px;
+height:32px;
+font-size:20px;
+}
+</style>
